@@ -113,8 +113,11 @@ Letter Grade: B */
             System.out.println("C");
 
 
-        }else{
-            System.out.println("0");
+        }else if (score>=60&&score<=69){
+            System.out.println("D");
+        }
+        else{
+            System.out.println("F");
         }
 
         /*5. Write a Java program that takes a person's age as input and
